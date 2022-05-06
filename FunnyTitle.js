@@ -3,7 +3,7 @@ let OriginTitle = document.title
 let titleTime
 let link = document.querySelector('link[rel*="icon"]') || document.createElement("link")
 link.rel = "icon"
-if(link.href.indexOf('unknown')) {
+if (link.href.indexOf('unknown')) {
   link.href = "/favicon.ico"
 }
 document.addEventListener("visibilitychange", function () {
