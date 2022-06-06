@@ -1,4 +1,4 @@
-import{g as s,t as a,a as n,r as u}from"./index.fb6f617f.js";var i={queryArticleCount:({username:t,repository:r})=>`
+import{g as s,t as a,a as n,r as u}from"./index.efcdf705.js";var i={queryArticleCount:({username:t,repository:r})=>`
     query { 
       repository(owner:"${t}", name: "${r}") {
         issues(states:OPEN) {
