@@ -1,0 +1,1 @@
+import{o as e,c as o}from"./vendor.f5517c7e.js";import{_ as r}from"./index.7eb8e836.js";const s={class:"content"};var t=r({},[["render",function(r,t){return e(),o("div",s,"关于")}],["__scopeId","data-v-772108c0"]]);export{t as default};
