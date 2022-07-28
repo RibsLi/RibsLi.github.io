@@ -1,0 +1,1 @@
+import{_ as a}from"./index.1440eb6d.js";import{o as d,c as o}from"./vendor.1b44fe95.js";const s={id:"gitalk"};var e=a({setup:a=>(a,e)=>(d(),o("div",s))},[["__scopeId","data-v-d51777a6"]]);export{e as default};
