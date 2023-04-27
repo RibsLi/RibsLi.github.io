@@ -49,16 +49,12 @@
 
     <!-- 首次渲染加载动画脚本 -->
     <script>
-      window.onload = function () {
+      addEventListener("load", function(){
         const loader = document.querySelector('#apploading')
-        loader.innerHTML = 1
         if (document.readyState === 'complete') {
-          loader.innerHTML = 2
-          loader.innerHTML = document.readyState
-          // setTimeout(() => (loader.style.display = 'none'), 1000)
           loader.style.display = 'none'
         }
-      }
+      })
     </script>
 
     
